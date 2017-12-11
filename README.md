@@ -4,10 +4,10 @@ A Dockerfile / Docker config for php:7.0-apache, GD (JPEG, PNG and FreeType), co
 # Usage
 Nothing fancy. The usual docker startup procedure:
 
-`docker-compose --build -d`
+`docker-compose up --build -d`
 
 and then
 
-`docker-compose -d`
+`docker-compose up -d`
 
 after the first run.
